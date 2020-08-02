@@ -1,3 +1,9 @@
+// Wait for window load
+$(window).load(function () {
+     // Animate loader off screen
+     $(".se-pre-con").fadeOut("slow");
+});
+
 window.addEventListener("load", function (e) {
      const slidersImage = document.querySelectorAll("img");
      // once the page is fully loaded, take away the display
