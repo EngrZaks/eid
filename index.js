@@ -7,7 +7,7 @@ console.log(moment().startOf("day").fromNow());
 // });
 window.onload = function () {
      var x = document.querySelector(".se-pre-con");
-     x.style.display = "none";
+     x.style.height = 0;
      console.log("page loaded");
 };
 
