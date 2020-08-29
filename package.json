@@ -1,0 +1,30 @@
+{
+  "name": "eid",
+  "version": "1.0.0",
+  "description": "website project for eid celebrations",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EngrZaks/eid.git"
+  },
+  "keywords": [
+    "eid",
+    "Sallah"
+  ],
+  "author": "Zaks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EngrZaks/eid/issues"
+  },
+  "homepage": "https://github.com/EngrZaks/eid#readme",
+  "dependencies": {
+    "moment": "^2.27.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}

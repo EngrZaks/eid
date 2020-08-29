@@ -1,8 +1,15 @@
+var moment = require("moment");
+console.log(moment().startOf("day").fromNow());
 // Wait for window load
-$(window).load(function () {
-     // Animate loader off screen
-     $(".se-pre-con").fadeOut("slow");
-});
+// $(window).load(function () {
+//      // Animate loader off screen
+//      $(".se-pre-con").fadeOut("slow");
+// });
+window.onload = function () {
+     var x = document.querySelector(".se-pre-con");
+     x.style.display = "none";
+     console.log("page loaded");
+};
 
 const slidersImage = document.querySelectorAll("img");
 // once the page is fully loaded, take away the display
