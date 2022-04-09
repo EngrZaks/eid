@@ -24,7 +24,7 @@
      },
      "homepage": "https://github.com/EngrZaks/eid#readme",
      "dependencies": {
-          "moment": "^2.27.0"
+          "moment": "^2.29.2"
      },
      "devDependencies": {
           "@babel/core": "^7.11.4",
